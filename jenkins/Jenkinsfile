@@ -5,6 +5,10 @@ agent {
   label 'DevServer'
 }
 
+tools {
+  maven 'My Maven'
+}
+
 stages{
 
     stage('build')
